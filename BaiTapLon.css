@@ -1,0 +1,637 @@
+body{
+    font-size: 100%;
+    line-height: 2em;
+    font-family: "Work Sans",sans-serif;
+    box-sizing:border-box;
+
+}
+a{
+    text-decoration: none;
+    width: 100%;
+   
+}
+h5{
+    font-size: 1.5em;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.form{
+  
+    width: 100%;
+    margin:0 auto;
+    
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    top:0;
+    z-index: 10;
+    border-bottom: 2px solid #ff0000;
+}
+.header1{
+    
+    display: flex;
+    flex:1;
+}
+.header1 a{
+    font-size: 1.5em;
+    margin: auto;
+}
+
+/* phần header2 */
+
+.menu0{
+    left:-1em !important;
+    right:-12em !important;
+}
+.menu1{
+    left:-1em;
+    right:-7em !important; 
+}
+.menu2{
+    left:-1em;
+    right:-4em !important;
+}
+.header2{
+    display: flex;
+    flex:3;
+
+}
+.header2-list{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    top:1em;
+    right:-9em;
+    background: white;
+    z-index: 10;
+    padding: 1em 1em 0 ;
+    line-height: 3em;
+    margin-top: 1em;
+}
+
+.header2-list-item{
+    margin: 10px;
+    position: relative;
+    margin-left:1em;
+    margin-right: 1em;
+   
+}
+.header2-list-item a{
+    font-size: 2em;
+    color:black;
+
+}
+.header2-nav{
+    width:100%;
+  
+
+}
+.header2 li:hover .sub-menu {
+    display: block;
+
+}
+.header2 a:hover, li:hover{
+    color: red;
+}
+.sub-menu li{
+    position: relative;
+    display: inherit;
+}
+
+/* phần header 3*/
+.header3{
+    display: flex;
+    flex:1;
+    
+}
+.header3-list{
+
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+   margin-top: 2em;
+}
+.header3-list a{
+    color: black;
+
+}
+
+ 
+
+.div-search{
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.button-search{
+
+
+    
+    
+    
+    
+    background: #e82250;
+    color: white;}
+
+
+.list-search{
+    background: white;
+    margin: auto;
+    width:60%;
+    display: flex;
+    justify-content: center;
+}
+.text-box-search{
+    min-width: 70%;
+    
+}
+.fa-times-circle{
+    margin: auto;
+}
+.delete-search{
+    display: none;
+}
+
+
+
+
+/* phần thân ảnh*/
+
+/* phần body2 các item*/
+.body2{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.body2-title{
+    text-align: center;
+}
+.body2-list{
+    text-align: center;
+
+}
+.body2-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.body2-list li{
+    width: 45%;
+    height: 360px;
+    margin-top: 2em;
+}
+@media (min-width:1200px){
+    .body2-list ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    
+    }
+    .body2-list li{
+        width: 30%;
+        height: 360px;
+        margin-top: 2em;
+    }
+
+}
+.body2-list-item {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+
+}
+
+
+.d1{
+    background-image: url("https://cdn.shopify.com/s/files/1/0281/9060/5450/collections/Capture_360x.jpg?v=1606881327");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    cursor: pointer;
+}
+.d2{
+    background-image: url("https://cdn.shopify.com/s/files/1/0281/9060/5450/collections/20201027_Dart06-051-Edit-SGR_180x.jpg?v=1606122912");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    cursor: pointer;
+}
+.d3{
+    background-image: url("https://cdn.shopify.com/s/files/1/0281/9060/5450/collections/110419-wine-with-chocolate-flatlay_180x.jpg?v=1585401892");    
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    cursor: pointer;
+}
+.d4{
+    background-image: url("https://cdn.shopify.com/s/files/1/0281/9060/5450/collections/Tea_and_Chocolate_large_61afdde6-c2fa-49ea-ab6d-d94e7152a3d8_180x.jpg?v=1602579911");    height: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    cursor: pointer;
+}
+.d5{
+    background-image: url("https://cdn.shopify.com/s/files/1/0281/9060/5450/collections/Collection_Banner_For_Chocolate_Truffle_Collection_1140x300px_180x.png?v=1583925675");    height: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    cursor: pointer;
+}
+.d6{
+    background-image: url("https://cdn.shopify.com/s/files/1/0281/9060/5450/collections/Combo_1080x.jpg?v=1603097044");    width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    cursor: pointer;
+}
+/* body 3 nè  nha Nguyện */
+
+  
+
+
+
+.body3-title{
+    display: flex;
+    justify-content: center;
+}
+.body3-list {
+    width:100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+}
+.body3-list li{
+    width: 50%;
+    height: 400px;
+    margin-top: 2em;
+}
+.body3-list-item{
+
+    box-sizing: border-box;
+}
+.body3 img{
+    width:227px;
+    height:227px;
+    
+    
+}
+.body3-img{
+    display: flex;
+    justify-content: center;
+   
+}
+.body3-img img{
+    opacity: 1;
+}
+figcaption h5 {
+    text-align: center;
+    color: red;
+    
+}
+
+
+
+@media (min-width:1200px){
+    .body3-list {
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: space-around;
+    
+    }
+    .body3-list li{
+        width: 30%;
+        height: 360px;
+        margin-top: 2em;
+    }
+    .footer1-noi p{
+        margin: 0;
+    }
+}
+.fig{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ figcaption a{
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    margin-top: -2em;
+    line-height: 1.7;
+}
+ figcaption {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* phaafn body4 */
+.body4-title h1{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.body4{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.body4-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.body4-list-item{
+    box-sizing: border-box;
+    width:20%;
+    height: 450px;
+    opacity: 1;
+}
+.body4-list-item h5{
+    line-height: 2em;
+    text-align: center;
+    color: black;
+    margin-top: -2em;
+}
+.body4-item{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.body4 h6{
+    font-size: 1.5em;
+    text-align: center;
+    color: red;
+}
+/* footer1 */
+.footer{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer1-header {
+    text-align: center;
+    color: white;
+    margin-top: 2.5em;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0281/9060/5450/files/Chocolate-Covered-Sea-Salt-Caramels-vegan-dairy-free-refinged-sugar-free-Paleo-9_a5ef32b8-025c-4bb1-9ffa-c80fdb33978b_1080x.jpg?v=1578543265);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@media(min-width:800px){
+    .footer1-noi{
+        width:60%;
+       margin:0 auto 0 auto;
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        max-width: 800px;
+    }
+}
+.footer1-noi{
+    width:95%;
+   margin:0 auto 0 auto;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    
+}
+.footer-button{
+   
+    padding: 1em;
+    background: #e82250;
+    color: white;
+    margin:1em auto 0 auto;
+}
+.footer1-noi p{
+    color:white;
+    font-size: 1em;
+    
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 3em 0 3em ;
+}
+.footer-left{
+    flex:1;
+    padding: 0 15px 0 15px;
+}
+.footer-center{
+    flex:2.5;
+    padding: 0 15px 0 15px;
+}
+.footer-last{
+    flex:2;
+    padding: 0 15px 0 15px;
+
+}
+.footer2 h1{
+    font-size: 1em;
+}
+.footer-last-item button{
+    padding:0.1em 0 0.1em 0;
+background: #e82250;
+color: white;
+margin: 0 auto 0 auto;
+}
+.footer-left-list li a{
+    color:black
+        
+    
+}
+.after-footer{
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.body1-button a:hover {
+    opacity: 0.5;
+}
+
+.body3-img:hover img{
+    opacity: 0.5;
+}
+figcaption a:hover {
+    color: red;
+}
+
+.body4-list-item a:hover img{
+    opacity: 0.5;
+}
+.body4-list-item:hover h5{
+    color: red;
+}
+.footer-button a:hover {
+    opacity: 0.5;
+
+}
+.footer-left-list li:hover a{
+    color:red;
+}
+.after-footer , .footer{
+    background-color: #f5f5f5;
+}
+/* phần login*/
+.login{
+    text-align: center;
+}
+.form-login{
+    width:30%;
+    margin: auto;
+    color:#3d4246;
+}
+.form-login h4{
+    float:left;
+}
+.button-submit button {
+    color: white;
+    background: #e82250;
+    padding: 1em;
+}
+
+.button-submit a{
+    color:#3d4246;
+
+}.submit  a{
+    color: white;
+    cursor: pointer;
+}
+.container-footer{
+    width: 100%;
+    background: #f5f5f5;
+    
+}
+.login{
+    margin-top: 10em;
+}
+#slideshow {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    margin:  auto;
+  }
+ .slide-wrapper {
+    width: 6300px;
+    -webkit-animation: slide 14s ease infinite;
+  }
+ .slide {
+    float: left;
+    height: 600px;
+    width: 1954px;
+  }
+ @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -2100px;}
+    50% {margin-left: -2100px;}
+    60% {margin-left: -4200px;}
+    80% {margin-left: -4200px;}
+  }
+  .body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1470px;
+}
+.body1-img{
+    /*width:98%;*/
+    
+
+}
+.body1-button a{color: white;}
+.body1-button{
+    position: absolute;
+    align-content: center;
+    margin: -9em 0 6em ;
+    z-index: 9;
+    background: #e82250;
+    color: white;
+}
+.footer-last-item button a {
+    color: white;
+    
+}
+.product{
+    width:50%;
+    display: flex;
+    margin: auto;
+    margin-top:10em;
+    justify-content: center;
+}
+.container-product{
+
+    margin: auto;  
+} 
+.product-button{
+    background: #e82250;
+    color: white;
+    padding: 0 3em 0 3em ;
+    margin: 2em 0 2em 0;
+}
+.product-button a{color: white;}
+.product-title{
+    margin: 0 0 2em 0;
+}
+.product-img img{
+    width:672px;
+    height:672px;
+}
+.product-content h1{
+    font-size: 4em;
+}
